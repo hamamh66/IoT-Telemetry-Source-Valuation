@@ -1,0 +1,80 @@
+[
+  {
+    "alert_role": "Correct alert",
+    "true_class": "NMAP_TCP_scan",
+    "predicted_class": "NMAP_TCP_scan",
+    "predicted_probability": 1.0,
+    "predicted_class_is_normal": false,
+    "top_contributions": [
+      {
+        "feature": "fwd_pkts_payload.avg",
+        "source": "volume",
+        "value": 0.0,
+        "shap": 0.1029
+      },
+      {
+        "feature": "flow_SYN_flag_count",
+        "source": "header",
+        "value": 1.0,
+        "shap": 0.1022
+      },
+      {
+        "feature": "fwd_header_size_min",
+        "source": "header",
+        "value": 40.0,
+        "shap": 0.0983
+      },
+      {
+        "feature": "fwd_header_size_tot",
+        "source": "header",
+        "value": 40.0,
+        "shap": 0.0892
+      },
+      {
+        "feature": "fwd_last_window_size",
+        "source": "header",
+        "value": 64240.0,
+        "shap": 0.0868
+      }
+    ]
+  },
+  {
+    "alert_role": "Misclassified flow",
+    "true_class": "DDOS_Slowloris",
+    "predicted_class": "NMAP_UDP_SCAN",
+    "predicted_probability": 1.0,
+    "predicted_class_is_normal": false,
+    "top_contributions": [
+      {
+        "feature": "active.tot",
+        "source": "timing",
+        "value": 510.215759,
+        "shap": 0.1046
+      },
+      {
+        "feature": "flow_duration",
+        "source": "timing",
+        "value": 0.0005099999999999,
+        "shap": 0.0959
+      },
+      {
+        "feature": "fwd_iat.min",
+        "source": "timing",
+        "value": 20.027161,
+        "shap": 0.0942
+      },
+      {
+        "feature": "fwd_pkts_payload.avg",
+        "source": "volume",
+        "value": 26.5,
+        "shap": 0.0904
+      },
+      {
+        "feature": "flow_pkts_payload.avg",
+        "source": "volume",
+        "value": 26.5,
+        "shap": 0.0795
+      }
+    ]
+  }
+]

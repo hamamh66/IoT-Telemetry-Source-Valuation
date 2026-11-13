@@ -1,0 +1,5 @@
+index_column,model,index_in_top20
+False,"classifier, SHAP top-20",0.0
+False,"regressor + rounding, SHAP top-20",0.0
+True,"classifier, SHAP top-20",1.0
+True,"regressor + rounding, SHAP top-20",1.0
