@@ -1,0 +1,9 @@
+{
+  "title": "Telemetry-source valuation and leakage-audited explainable alerts on RT-IoT2022",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "creators": [{"name": "Hamam, Habib", "affiliation": "Université de Moncton", "orcid": "0000-0002-5320-1012"}],
+  "description": "Reproducible study of a two-pass explainable random-forest detector on the public RT-IoT2022 dataset: leakage audit (row-index column, regression on class codes), class-balanced SHAP feature selection, exact Shapley attribution of macro F1 to five telemetry sources over all 32 source combinations, degraded-telemetry evaluation with fallback models, and confidence-based review routing. Includes code, raw per-split results, summary tables and figures. The dataset is not redistributed.",
+  "keywords": ["industrial information integration", "IoT security", "intrusion detection", "data leakage", "Shapley value", "SHAP", "random forest", "RT-IoT2022"]
+}

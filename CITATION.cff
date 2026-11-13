@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Telemetry-source valuation and leakage-audited explainable alerts on RT-IoT2022"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/hamamh66/IoT-Telemetry-Source-Valuation"
+authors:
+  - family-names: Hamam
+    given-names: Habib
+    affiliation: "Université de Moncton"
+    orcid: "https://orcid.org/0000-0002-5320-1012"
+keywords:
+  - industrial information integration
+  - IoT security
+  - intrusion detection
+  - data leakage
+  - Shapley value
+  - SHAP

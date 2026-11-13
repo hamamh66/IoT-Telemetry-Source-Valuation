@@ -1,0 +1,4 @@
+rt-iot2022.csv
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
